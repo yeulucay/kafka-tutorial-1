@@ -27,7 +27,7 @@ public class ProducerDemoWithCallback {
         for(int i =0; i<10; i++) {
 
             String topic = "first_topic";
-            String value = "hello world " + i;
+            String value = "helloo world " + i;
             String key = "id_" + i;
             //create producer record
             //key added later. with key parameter, you guarantee the data with that key goes always to the same partition.
